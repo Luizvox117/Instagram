@@ -1,0 +1,75 @@
+body,
+html{
+    background-color: #f0f0f0;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    /* centralizado hor */
+    justify-content: center;
+    /* centralizado ver */
+    align-items: center;
+    font-family: helvetica;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+  gap:20px
+}
+.user-card{
+ display: flex;
+ align-items: center;
+ background-color: white;
+ border: 1px solid #ccc;
+ border-radius: 10px;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2 );
+ padding: 10px 25px ;
+min-width: 355px;
+}
+.user-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.user-info{
+    padding: 10px;
+}
+.user-info p,
+.user-info h2{
+ margin: 15px 0;
+}
+.user-info p{
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 5px;
+}
+.social-links{
+    display: flex;
+    gap: 10px;
+}
+.social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(4, 8, 231);
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.social-icon:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.facebook{
+    background-color: #0056b3;
+}
+.instagram{
+    background-color: #e1306c;
+}
+.linkedin{
+    background-color: #0076b5;
+}
